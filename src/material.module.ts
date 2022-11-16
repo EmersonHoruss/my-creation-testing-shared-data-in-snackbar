@@ -70,7 +70,7 @@ import { DialogModule } from '@angular/cdk/dialog';
     // MatDividerModule,
     // MatExpansionModule,
     // MatGridListModule,
-    // MatIconModule,
+    MatIconModule,
     // MatInputModule,
     // MatListModule,
     // MatMenuModule,

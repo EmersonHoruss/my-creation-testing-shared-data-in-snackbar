@@ -15,9 +15,15 @@ export class AppComponent {
   constructor(private _snackBar: MatSnackBar) {}
 
   openSnackbar() {
+    const shortMessage = 'Alarm have been added correctly';
+    const longMessage =
+      shortMessage + ' ,thismessage says the operation was succesfully done';
     this._snackBar.openFromComponent(MySnackbarComponent, {
-      duration: 1000,
-      data: { title: 'hola' },
+      duration: 100000,
+      data: {
+        message: shortMessage,
+      },
+      panelClass: ['my-snackbar-panel'],
     });
   }
 }
