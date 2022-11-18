@@ -7,7 +7,8 @@ p {
 .my-snackbar {
   display: flex;
   align-items: center;
-  background-color: rgb(48, 52, 67);
+  /* background-color: rgb(48, 52, 67); */
+  background-color: red;
   position: absolute;
   top: 0;
   left: 0;
